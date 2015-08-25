@@ -20,6 +20,6 @@ int main()
 
 	fork();
 	printf("%d\n",getpid());
-
+  wait(NULL);
 	return 0;
 }
